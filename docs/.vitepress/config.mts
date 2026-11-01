@@ -131,7 +131,7 @@ export default defineConfig({
 
     footer: {
       message: 'Publicado bajo Licencia MIT.',
-      copyright: 'Copyright © 2026 anonimous1221 &lt;plusstaff035@gmail.com&gt;'
+      copyright: 'Copyright © 2026 anonimous7800 &lt;plusstaff035@gmail.com&gt;'
     },
 
     docFooter: {
