@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280">
+  <defs>
+    <linearGradient id="bgBanner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="40%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#10b981" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect x="0" y="0" width="900" height="280" rx="16" fill="url(#bgBanner)" stroke="#059669" stroke-width="2" />
+
+  <!-- Shield Logo Group -->
+  <g transform="translate(40, 30)">
+    <!-- Shield -->
+    <path d="M110 20 L180 50 C180 120 150 170 110 200 C70 170 40 120 40 50 Z" fill="url(#shieldGrad)" filter="url(#glow)" stroke="#34d399" stroke-width="4" stroke-linejoin="round" />
+    <!-- Inset -->
+    <path d="M110 32 L168 57 C168 115 142 156 110 182 C78 156 52 115 52 57 Z" fill="#064e3b" opacity="0.5" />
+    <!-- Cross/Plus Symbol -->
+    <g transform="translate(110, 110)">
+      <rect x="-10" y="-45" width="20" height="90" rx="6" fill="url(#goldGrad)" />
+      <rect x="-45" y="-10" width="90" height="20" rx="6" fill="url(#goldGrad)" />
+      <circle cx="0" cy="0" r="16" fill="#ffffff" />
+      <circle cx="0" cy="0" r="9" fill="#10b981" />
+    </g>
+  </g>
+
+  <!-- Text & Branding -->
+  <text x="280" y="95" font-family="system-ui, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="1">StaffPlus</text>
+  <rect x="520" y="65" width="85" height="32" rx="6" fill="#10b981" />
+  <text x="532" y="87" font-family="system-ui, sans-serif" font-size="15" font-weight="bold" fill="#022c22">v5.0.4</text>
+
+  <text x="280" y="135" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#38bdf8">La Suite Definitiva de Moderación para Servidores de Minecraft</text>
+  <text x="280" y="165" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">Blindaje Anti-Exploits • Modo Staff Táctico • Panel de Bans • Paper 26.3 &amp; Spigot</text>
+
+  <!-- Badges Row -->
+  <g transform="translate(280, 195)">
+    <!-- Badge 1: Paper -->
+    <rect x="0" y="0" width="135" height="38" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="14" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#38bdf8">📄 Paper 26.3</text>
+
+    <!-- Badge 2: Java 25 -->
+    <rect x="150" y="0" width="115" height="38" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="164" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#f59e0b">☕ Java 25 LTS</text>
+
+    <!-- Badge 3: Modrinth -->
+    <rect x="280" y="0" width="135" height="38" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="294" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#10b981">🟩 Modrinth App</text>
+
+    <!-- Badge 4: Anti-Exploit -->
+    <rect x="430" y="0" width="145" height="38" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="444" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#ec4899">🛡️ Anti-Exploit</text>
+  </g>
+</svg>

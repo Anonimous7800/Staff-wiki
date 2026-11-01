@@ -1,6 +1,14 @@
 # Introducción a StaffPlus
 
+![Banner StaffPlus v5.0.4](/banner-staffplus.svg)
+
 **StaffPlus** es un plugin integral de administración y moderación diseñado específicamente para servidores de Minecraft. Su propósito es brindar al equipo de moderación (helpers, moderadores y administradores) todas las herramientas necesarias para supervisar el servidor, detectar tramposos y sancionar infracciones sin interferir con la experiencia normal de juego.
+
+---
+
+## ⚡ Flujo de Moderación en el Servidor
+
+![Flujo Operativo del Equipo de Moderación](/guide-moderation-flow.svg)
 
 ---
 

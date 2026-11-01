@@ -1,5 +1,7 @@
 # Blindaje Anti-Exploit de Inventario
 
+![Esquema de Blindaje Anti-Exploits](/guide-inventory-shield.svg)
+
 En muchas versiones antiguas de plugins de moderación, los moderadores podían accidentalmente (o intencionadamente) transferir objetos de su modo staff a otros jugadores, cofres o soportes de armaduras. En **StaffPlus 5.0.4**, se ha implementado un sistema estricto de **bloqueo inamovible (Hardware Inventory Lock)**.
 
 ---

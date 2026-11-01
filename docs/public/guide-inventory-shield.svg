@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="850" height="280">
+  <defs>
+    <linearGradient id="shieldBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <text x="30" y="35" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#38bdf8">🔒 Arquitectura de Blindaje Anti-Exploits (Modo Staff)</text>
+
+  <!-- Central Hotbar Box -->
+  <g transform="translate(30, 60)">
+    <rect x="0" y="0" width="360" height="190" rx="10" fill="url(#shieldBg)" stroke="#10b981" stroke-width="2" />
+    <text x="20" y="35" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#34d399">🛡️ Barra Fija Inalterable</text>
+    <text x="20" y="65" font-family="system-ui, sans-serif" font-size="13" fill="#cbd5e1">Las 9 herramientas están bloqueadas por eventos de bajo nivel del servidor:</text>
+
+    <rect x="20" y="85" width="320" height="85" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="32" y="110" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">✅ Inventario real respaldado en archivo encriptado</text>
+    <text x="32" y="132" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">✅ Acciones canceladas con prioridad HIGHEST</text>
+    <text x="32" y="154" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">✅ Modo creativo protegido contra extracción</text>
+  </g>
+
+  <!-- Blocked Actions List (Right side) -->
+  <g transform="translate(420, 60)">
+    <rect x="0" y="0" width="400" height="190" rx="10" fill="url(#shieldBg)" stroke="#ef4444" stroke-width="2" />
+    <text x="20" y="35" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#f87171">🚫 Acciones Bloqueadas y Prohibidas</text>
+
+    <g transform="translate(20, 55)">
+      <text x="0" y="20" font-family="system-ui, sans-serif" font-size="13" fill="#fca5a5">❌ Tecla Q / Dropeo de ítems al suelo</text>
+      <text x="0" y="45" font-family="system-ui, sans-serif" font-size="13" fill="#fca5a5">❌ Tecla F / Intercambio a segunda mano (Offhand)</text>
+      <text x="0" y="70" font-family="system-ui, sans-serif" font-size="13" fill="#fca5a5">❌ Arrastre a cofres, tolvas y barriles</text>
+      <text x="0" y="95" font-family="system-ui, sans-serif" font-size="13" fill="#fca5a5">❌ Equipar soportes de armaduras o marcos</text>
+      <text x="0" y="120" font-family="system-ui, sans-serif" font-size="13" fill="#fca5a5">❌ Recogida de objetos tirados por el mapa</text>
+    </g>
+  </g>
+</svg>

@@ -1,5 +1,7 @@
 # Instalación
 
+![Guía Rápida de Instalación en 3 Pasos](/guide-installation.svg)
+
 Instalar **StaffPlus** en tu servidor es un proceso directo que solo requiere copiar el archivo compilado en el directorio de plugins.
 
 ---
