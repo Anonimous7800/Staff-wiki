@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="850" height="320">
+  <defs>
+    <linearGradient id="stepBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="30" y="40" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#38bdf8">📦 Guía Rápida de Instalación en 3 Pasos</text>
+
+  <!-- Step 1 Card -->
+  <g transform="translate(30, 70)">
+    <rect x="0" y="0" width="240" height="210" rx="10" fill="url(#stepBg)" stroke="#3b82f6" stroke-width="2" filter="url(#shadow)" />
+    <circle cx="35" cy="40" r="18" fill="#3b82f6" />
+    <text x="30" y="46" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">1</text>
+    <text x="65" y="45" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Descargar JAR</text>
+    <text x="20" y="90" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">Obtén la compilación oficial</text>
+    <rect x="20" y="105" width="200" height="34" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="32" y="127" font-family="monospace" font-size="12" fill="#38bdf8">staff-5.0.4.jar</text>
+    <text x="20" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">Compatible con Paper 26.x y Spigot 1.8-1.21</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M285 175 L315 175 M305 165 L315 175 L305 185" stroke="#64748b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Step 2 Card -->
+  <g transform="translate(330, 70)">
+    <rect x="0" y="0" width="240" height="210" rx="10" fill="url(#stepBg)" stroke="#10b981" stroke-width="2" filter="url(#shadow)" />
+    <circle cx="35" cy="40" r="18" fill="#10b981" />
+    <text x="30" y="46" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">2</text>
+    <text x="65" y="45" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Copiar a /plugins</text>
+    <text x="20" y="90" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">Coloca el archivo dentro de:</text>
+    <rect x="20" y="105" width="200" height="34" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="32" y="127" font-family="monospace" font-size="12" fill="#10b981">/servidor/plugins/</text>
+    <text x="20" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">No requiere descomprimir ni modificar nada.</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M585 175 L615 175 M605 165 L615 175 L605 185" stroke="#64748b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Step 3 Card -->
+  <g transform="translate(630, 70)">
+    <rect x="0" y="0" width="190" height="210" rx="10" fill="url(#stepBg)" stroke="#8b5cf6" stroke-width="2" filter="url(#shadow)" />
+    <circle cx="35" cy="40" r="18" fill="#8b5cf6" />
+    <text x="30" y="46" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">3</text>
+    <text x="65" y="45" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Iniciar</text>
+    <text x="20" y="90" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">Inicia tu servidor:</text>
+    <rect x="20" y="105" width="150" height="34" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="32" y="127" font-family="monospace" font-size="12" fill="#a78bfa">/staff</text>
+    <text x="20" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">Genera config.yml y bans.yml al instante.</text>
+  </g>
+</svg>
