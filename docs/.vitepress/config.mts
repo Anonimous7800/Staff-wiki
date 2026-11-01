@@ -130,8 +130,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Wiki oficial de StaffPlus desarrollada para la comunidad de Minecraft.',
-      copyright: 'Copyright © 2026 StaffPlus Team'
+      message: 'Publicado bajo Licencia MIT.',
+      copyright: 'Copyright © 2026 anonimous1221 &lt;plusstaff035@gmail.com&gt;'
     },
 
     docFooter: {
