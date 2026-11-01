@@ -52,10 +52,12 @@ export default defineConfig({
       { text: 'Moderación', link: '/moderacion/sistema-de-bans' },
       { text: 'Comandos', link: '/referencia/comandos' },
       { text: 'Permisos', link: '/referencia/permisos' },
+      { text: 'Modrinth', link: 'https://modrinth.com/plugin/staff-plus' },
       {
         text: 'v5.0.4',
         items: [
           { text: 'Changelog / Novedades', link: '/guia/introduccion#novedades-de-la-version-504' },
+          { text: 'Descargar en Modrinth', link: 'https://modrinth.com/plugin/staff-plus' },
           { text: 'Repositorio GitHub', link: 'https://github.com/Anonimous7800/staff-pluss' }
         ]
       }

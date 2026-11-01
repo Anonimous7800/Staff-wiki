@@ -25,6 +25,8 @@ En el menú del objeto **Papel** del Modo Staff:
 * Accede a la opción **Reportes sin resolver**.
 * Haz clic sobre un reporte para teletransportarte directamente a la posición del jugador denunciado o eliminar el reporte una vez atendido.
 
+![Panel de Reportes Activos](/modrinth-report.png)
+
 ---
 
 ## 🎫 Módulo de Tickets (/ticket)

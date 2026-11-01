@@ -44,6 +44,24 @@ features:
 
 ![Barra de Acceso Rápido del Modo Staff](/hotbar-staff.png)
 
+## 📸 Galería en el Servidor (Modrinth Oficial)
+
+| Activación de Modo Staff | Teleport Aleatorio (RTP) |
+| :---: | :---: |
+| ![Modo Staff](/modrinth-modestaff.webp) | ![Random TP](/modrinth-randomtp.webp) |
+
+| Inspección (/examine) | Panel de Reportes (/report) |
+| :---: | :---: |
+| ![Inspección](/modrinth-inventory.png) | ![Reportes](/modrinth-report.png) |
+
+| Lista de Staff (/personnel) | Pantalla de Sanción / Ban |
+| :---: | :---: |
+| ![Lista de Staff](/modrinth-stafflist.png) | ![Pantalla de Ban](/modrinth-ban.png) |
+
+::: tip Disponible en Modrinth
+Puedes descargar la última versión y seguir las actualizaciones oficiales en [Modrinth: StaffPlus](https://modrinth.com/plugin/staff-plus).
+:::
+
 ## 🚀 Inicio Rápido en 3 Pasos
 
 ```bash

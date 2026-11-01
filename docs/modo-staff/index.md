@@ -6,6 +6,8 @@ El **Modo Staff** es el corazón operativo de StaffPlus. Al activarse mediante e
 
 ## ⚡ Activación y Comandos
 
+![Activación del Modo Staff en el Servidor](/modrinth-modestaff.webp)
+
 * **Activar/Desactivar tu propio modo staff:**
   ```bash
   /staff

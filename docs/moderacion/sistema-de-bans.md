@@ -62,6 +62,8 @@ Gracias a esto, si un usuario que ha cometido una falta se desconecta, puedes ej
 
 ## 🎨 Pantalla de Sanción al Conectar
 
+![Pantalla de Sanción en Minecraft](/modrinth-ban.png)
+
 Cuando un usuario sancionado intenta ingresar, recibe una pantalla formateada y clara:
 
 ```text

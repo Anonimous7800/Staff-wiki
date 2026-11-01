@@ -28,10 +28,18 @@ Cuando un moderador ingresa al Modo Staff, su barra de acceso rápido se equipa 
 * **Comportamiento:** Selecciona a un jugador activo (no staff) y te sitúa detrás de él.
 * **Blindaje:** En esta versión, se ha bloqueado completamente el lanzamiento físico del ojo de ender para evitar que vuele por el mapa.
 
+![Teleport Aleatorio en Vivo](/modrinth-randomtp.webp)
+
 ## 📄 4. Centro de GUIs (GUI Hub)
 Al hacer clic derecho con el papel se abre un menú con dos opciones principales:
 1. **Reportes Pendientes:** Lista interactiva con las denuncias enviadas por los usuarios.
 2. **Miners / Sospecha de X-Ray:** Lista de todos los jugadores que se encuentran a una coordenada Y inferior a 16 (configurable).
+
+## 👥 5. Lista de Staff (Personnel / Counter)
+* **Acción:** Clic derecho con la cabeza de jugador.
+* **Comportamiento:** Muestra el recuento de moderadores conectados y quiénes se encuentran en Modo Staff.
+
+![Panel de Miembros del Staff](/modrinth-stafflist.png)
 
 ## 📊 7. Test de Clics por Segundo (CPS)
 * **Acción:** Clic derecho sobre un jugador sospechoso de *autoclicker* o macros.

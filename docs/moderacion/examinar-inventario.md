@@ -18,6 +18,8 @@ El comando `/examine` abre una interfaz en tiempo real que replica exactamente l
 
 ## 🖥️ Estructura de la Interfaz
 
+![Captura en el Servidor de /examine](/modrinth-inventory.png)
+
 La pantalla de examen se divide en dos secciones principales:
 
 ### 1. Inventario del Jugador (Slots 0 al 44)
