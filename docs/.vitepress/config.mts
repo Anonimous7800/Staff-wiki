@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/Staff-wiki/',
   lang: 'es-ES',
   title: 'StaffPlus Wiki',
   description: 'Documentación oficial de StaffPlus - La suite definitiva de moderación para Minecraft',
