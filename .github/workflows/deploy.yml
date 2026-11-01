@@ -37,3 +37,19 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
+
+      - name: Notify Discord on deployment
+        if: success()
+        run: |
+          curl -H "Content-Type: application/json" -X POST -d '{
+            "embeds": [
+              {
+                "title": "🚀 StaffPlus Wiki Desplegada",
+                "description": "La documentación de **StaffPlus** se ha compilado y desplegado con éxito en GitHub Pages.\n\n🌐 **Sitio Web:** https://anonimous7800.github.io/Staff-wiki/",
+                "color": 1098673,
+                "footer": {
+                  "text": "GitHub Actions • Staff-wiki"
+                }
+              }
+            ]
+          }' https://discord.com/api/webhooks/1566588679965642804/jYD8VXDRasQRovhusjJSQprGhYbAsHupPXnvpdxtVxda2BDIraI86TyFmfyGoiEkrYIh
