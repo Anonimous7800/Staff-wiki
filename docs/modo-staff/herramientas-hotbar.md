@@ -1,5 +1,7 @@
 # Gadgets de la Hotbar
 
+![Barra de Herramientas del Modo Staff](/hotbar-staff.png)
+
 Cuando un moderador ingresa al Modo Staff, su barra de acceso rápido se equipa con las siguientes herramientas interactivas:
 
 | Slot | Objeto | Nombre | Función Principal |

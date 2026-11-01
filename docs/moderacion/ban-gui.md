@@ -1,6 +1,8 @@
 # Panel Gráfico de Bans (/bangui)
 
-Para facilitar la moderación sin tener que memorizar comandos o sintaxis de tiempo, StaffPlus incluye una interfaz gráfica interactiva completa.
+![Panel Gráfico de Bans de StaffPlus](/gui-bangui.svg)
+
+Para facilitar la moderación sin tener que memorizar comandos o sintaxis de tiempo, StaffPlus incluye una interfaz gráfica interactiva completa:
 
 ---
 

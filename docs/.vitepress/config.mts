@@ -17,6 +17,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    logo: '/logo.svg',
     siteTitle: 'StaffPlus Wiki',
     
     search: {

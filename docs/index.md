@@ -5,6 +5,9 @@ hero:
   name: "StaffPlus"
   text: "La Suite Definitiva de Moderación para Minecraft"
   tagline: "Control total, blindaje anti-exploits, panel de bans interactivo, soporte Paper 26.x / 1.21 y rendimiento optimizado."
+  image:
+    src: /logo.svg
+    alt: StaffPlus Shield Logo
   actions:
     - theme: brand
       text: Empezar ahora
@@ -36,6 +39,10 @@ features:
     title: Gestión de Chat y Detección de X-Ray
     details: Chat interno para el equipo con prefijo rápido (@), alertas de minado de minerales sospechosos, silenciado global y filtro de palabras prohibidas.
 ---
+
+## 🎮 Barra Táctica de Moderación (Modo Staff)
+
+![Barra de Acceso Rápido del Modo Staff](/hotbar-staff.png)
 
 ## 🚀 Inicio Rápido en 3 Pasos
 

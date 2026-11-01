@@ -1,5 +1,7 @@
 # Inspección de Inventario (/examine)
 
+![Interfaz de Inspección de Inventario](/gui-examine.svg)
+
 El comando `/examine` abre una interfaz en tiempo real que replica exactamente lo que el jugador objetivo tiene en su poder, permitiendo auditar posibles objetos ilegales o duplicados.
 
 ---
