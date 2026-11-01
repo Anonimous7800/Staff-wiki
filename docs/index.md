@@ -40,7 +40,11 @@ features:
     details: Chat interno para el equipo con prefijo rápido (@), alertas de minado de minerales sospechosos, silenciado global y filtro de palabras prohibidas.
 ---
 
-## 🎮 Barra Táctica de Moderación (Modo Staff)
+## 🎮 Experiencia de Moderación en Vivo
+
+![Moderador en Modo Staff con StaffPlus](/hero-moderator.jpg)
+
+### Barra Táctica de Moderación (Hotbar Fija)
 
 ![Barra de Acceso Rápido del Modo Staff](/hotbar-staff.png)
 

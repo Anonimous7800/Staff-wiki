@@ -6,6 +6,8 @@ StaffPlus supervisa en segundo plano diversos comportamientos de los jugadores y
 
 ## 💎 1. Alertas de Minado / X-Ray
 
+![Detección de Minería Ilegal y X-Ray](/xray-detection.jpg)
+
 Cada vez que un jugador pica un bloque valioso catalogado en la lista de vigilancia, todos los miembros del staff con el permiso `staff.alerts.xray` reciben una alerta en el chat indicando el jugador, el mineral y las coordenadas.
 
 ### Configuración de Minerales en `config.yml`

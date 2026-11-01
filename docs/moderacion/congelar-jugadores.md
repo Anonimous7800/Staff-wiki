@@ -1,5 +1,7 @@
 # Congelar Jugadores (/freeze)
 
+![Auditoría y Congelamiento de Jugadores Sospechosos](/freeze-investigation.jpg)
+
 La función de congelamiento (Freeze) permite a los moderadores paralizar a un jugador para realizar una revisión de seguridad (Screenshare) o impedir que continúe jugando mientras se aclara una posible infracción.
 
 ---
