@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # Sincronización automática de nuevas versiones cada 6 horas
+    - cron: '0 */6 * * *'
+  repository_dispatch:
+    types: [new-release, plugin-update]
 
 permissions:
   contents: write
